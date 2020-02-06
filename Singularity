@@ -1,4 +1,3 @@
 Bootstrap: docker
-From: anibali/docker-pytorch:cuda-10.1
-
+From: bstriner/tensorflow-cuda-10.0-cudnn7-devel-ubuntu16.04:36
 

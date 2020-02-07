@@ -1,3 +1,3 @@
 Bootstrap: docker
-From: ubuntu/ubuntu:latest
+From: lizolson/avd:latest
 

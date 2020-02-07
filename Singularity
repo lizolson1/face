@@ -3,8 +3,9 @@ From: pytorch/pytorch:1.4-cuda10.1-cudnn7-devel
 
 
 %post
-  chmod 777 -R /
+  chmod 777 /
   chmod 777 /root
+  chmod 777 -R /var
   mkdir /Pool2/
   mkdir /Pool2/users/
   mkdir /Pool2/users/lizolson/

@@ -22,5 +22,11 @@ From: pytorch/pytorch:1.4-cuda10.1-cudnn7-devel
   #chmod 777 /usr/
   #chmod 777 /bin/
   chmod -R 777 /Pool2
+  touch /usr/bin/nvidia-smi
+  touch /usr/bin/nvidia-debugdump
+  touch /usr/bin/nvidia-persistenced
+  touch /usr/bin/nvidia-cuda-mps-control
+  touch /usr/bin/nvidia-cuda-mps-server
+  touch /etc/localtime 
 
 
